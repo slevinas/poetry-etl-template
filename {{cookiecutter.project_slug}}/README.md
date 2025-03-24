@@ -87,23 +87,4 @@ poetry-etl-template/
 
 ---
 
-## 🌐 Publishing to GitHub
-
-```bash
-cd ~/.cookiecutters/poetry-etl-template
-
-git init
-# Create a repo on GitHub: https://github.com/new
-
-# Replace 'your-username'
-git remote add origin git@github.com:your-username/poetry-etl-template.git
-git add .
-git commit -m "Initial commit: Poetry ETL Cookiecutter Template"
-git branch -M main
-git push -u origin main
-```
-
----
-
-Made with ❤️ to simplify your Python ETL project bootstrapping 🚀
 
